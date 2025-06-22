@@ -1,33 +1,17 @@
 [
   {
-    "id": "file-path-test-project",
-    "title": "File Path Test Project",
-    "date": "2025-06-16T15:09:07.246Z",
-    "category": "testing",
-    "description": "Testing various file path references in markdown content",
-    "tags": [
-      "test",
-      "file-paths",
-      "markdown"
-    ],
-    "link": "/portfolio/projects/file-path-test-project",
-    "contentPath": "/portfolio/content/projects/file-path-test/index.md",
-    "image": "/portfolio/background/default_proj.jpg",
-    "assetPaths": []
-  },
-  {
-    "id": "sample-project",
-    "title": "Sample project",
-    "date": "2025-06-16T01:44:48.318Z",
+    "id": "onigiri-press-portfolio-framework",
+    "title": "Onigiri Press Portfolio Framework",
+    "date": "2025-06-21T08:09:46.567Z",
     "category": "default",
     "description": "This is the default description for project.",
     "tags": [
       "Hello",
       "World"
     ],
-    "link": "/portfolio/projects/sample-project",
-    "contentPath": "/portfolio/content/projects/sample-project/index.md",
-    "image": "/portfolio/favicon.png",
+    "link": "/portfolio/projects/onigiri-press-portfolio-framework",
+    "contentPath": "/portfolio/content/projects/onigiri-press-portfolio-framework/index.md",
+    "image": "/portfolio/default_cover.jpg",
     "assetPaths": []
   }
 ]
