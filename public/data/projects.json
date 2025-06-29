@@ -1,33 +1,41 @@
 [
   {
-    "id": "file-path-test-project",
-    "title": "File Path Test Project",
-    "date": "2025-06-16T15:09:07.246Z",
-    "category": "testing",
-    "description": "Testing various file path references in markdown content",
+    "id": "onigiri-press-portfolio-framework",
+    "title": "Onigiri Press Portfolio Framework",
+    "date": "2025-06-21T08:09:46.567Z",
+    "category": "Frontend",
+    "description": "This is the default description for project.",
     "tags": [
-      "test",
-      "file-paths",
-      "markdown"
+      "React",
+      "TypeScript",
+      "Vite",
+      "Portfolio",
+      "Blog"
     ],
-    "link": "/onigiri-press/projects/file-path-test-project",
-    "contentPath": "/onigiri-press/content/projects/file-path-test/index.md",
-    "image": "/onigiri-press/background/default_proj.jpg",
+    "link": "/portfolio/projects/onigiri-press-portfolio-framework",
+    "contentPath": "/portfolio/content/projects/onigiri-press-portfolio-framework/index.md",
+    "image": "/portfolio/onigiri.png",
     "assetPaths": []
   },
   {
-    "id": "sample-project",
-    "title": "Sample project",
-    "date": "2025-06-16T01:44:48.318Z",
-    "category": "default",
-    "description": "This is the default description for project.",
+    "id": "weenix-unix-like-operating-system",
+    "title": "Weenix - Unix-like Operating System",
+    "date": "2024-05-15T12:00:00.000Z",
+    "category": "Kernel Programming",
+    "description": "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging",
     "tags": [
-      "Hello",
-      "World"
+      "C",
+      "Operating Systems",
+      "Kernel Development",
+      "Unix",
+      "VFS",
+      "Virtual Memory"
     ],
-    "link": "/onigiri-press/projects/sample-project",
-    "contentPath": "/onigiri-press/content/projects/sample-project/index.md",
-    "image": "/onigiri-press/favicon.png",
-    "assetPaths": []
+    "link": "/portfolio/projects/weenix-unix-like-operating-system",
+    "contentPath": "/portfolio/content/projects/weenix-operating-system/index.md",
+    "image": "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg",
+    "assetPaths": [
+      "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg"
+    ]
   }
 ]

@@ -443,8 +443,8 @@ ORDER BY rank;
   "version": "1.0.0",
   "description": "Complete markdown features demonstration",
   "author": {
-    "name": "John Doe",
-    "email": "john.doe@example.com"
+    "name": "Jiabao Hu",
+    "email": "example@email.com"
   },
   "dependencies": {
     "markdown-it": "^13.0.1",

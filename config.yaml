@@ -1,29 +1,12 @@
 # OnigiriPress Configuration Template
 # Copy this file to config.yaml and customize with your information
-#
-# NAVIGATION CUSTOMIZATION:
-# You can add unlimited custom sections under 'home.navigation' by creating new keys.
-# Each section requires a 'type' field that must be one of:
-# - about: For text content with optional photo
-# - education: For educational background entries
-# - experience: For work experience entries  
-# - projects: For project showcases
-# - contact: For contact information
-#
-# Example of adding a custom section:
-# home:
-#   navigation:
-#     my_custom_section:
-#       title: "My Custom Section"
-#       icon: "🚀"
-#       type: "about"
-#       content: "Your content here..."
+
 
 website:
-  title: "Your Title"
+  title: "Jiabao Hu"
   titleSeparator: " | "
   favicon: "/favicon.png"
-  description: "Portfolio website of Your Name. Customize this description with your own information."
+  description: "Portfolio website of Jiabao Hu, a full-stack developer and Master's student at USC. Explore my projects, skills, and experiences in computer science and civil engineering."
 
 
 # Background configuration
@@ -33,26 +16,20 @@ backgrounds:
   # Examples:
   # "https://example.com/background.jpg" or "background/video.png"
   # "https://example.com/background.mp4" or "background/video.mp4"
-  global: "https://w.wallhaven.cc/full/6l/wallhaven-6lqk2l.png"
-  # global: "background/space.mp4" 
-  # Hero section background (Home page)
-  # Supports both images and videos (.mp4, .webm, .ogg, .mov, .avi)  
-  # Video backgrounds: auto-play on desktop, paused at first frame on mobile
-  # Examples:
-  # "https://example.com/hero.jpg" or "background/hero.jpg"
-  # "https://example.com/hero.mp4" or "background/hero.mp4"
-  hero: "https://w.wallhaven.cc/full/5y/wallhaven-5yd6d5.png"
+  global: "background/global.png"
+  # Hero section background (Home page) - using local path
+  hero: "background/hero.jpg"
   # hero: "background/space.mp4"  # Uncomment to use video background
 
 home:
   hero:
-    name: "YOUR NAME"
-    quote: "Your inspiring quote or tagline here."
+    name: "Jiabao Hu"
+    quote: "Let life be beautiful like summer flowers and death like autumn leaves."
 
   profileCard:
-    name: "Your Name"
-    title: "Your Job Title"
-    subtitle: "Your Subtitle"
+    name: "Jiabao Hu"
+    title: "Full-stack Developer"
+    subtitle: "MSCS at USC"
     avatar: "favicon.png"  # Avatar image for profile card
 
   # Navigation sections configuration
@@ -78,9 +55,17 @@ home:
         icon: "👤"
         type: "about"
         content: >
-          write your self-introduction here. This section supports markdown formatting, 
-          so you can include [links](https://example.com) and other formatting.
-        photo: "favicon.png"  # Optional photo for the about section
+          Hi, I'm Jiabao, currently a Master's student in 
+          [Computer Science](https://www.cs.usc.edu/academic-programs/masters/) at 
+          [University of Southern California (USC)](https://www.usc.edu/).
+          With a strong foundation in both engineering and software development, 
+          I'm passionate about building robust, user-centric applications that 
+          combine performance with elegant design. My experience spans full-stack web development, 
+          systems programming, and computer vision research, and I enjoy working across the stack to 
+          bring dynamic digital experiences to life. Whether I'm designing scalable backend systems 
+          or crafting intuitive user interfaces, I strive to write clean, 
+          maintainable code that solves real-world problems.
+        photo: "seattle.jpg"  # Optional photo for the about section
 
     education:
       title: "Education"
@@ -93,12 +78,12 @@ home:
       # - HSL: "hsl(210, 100%, 30%)"
       # - Named colors: "red", "blue", etc.
       items:
-        - schoolName: "State University"
+        - schoolName: "University of Southern California"
           degree: "Master of Science in Computer Science"
           duration: "Aug. 2023 - Dec. 2025"
-          location: "City, State"
+          location: "Los Angeles, CA"
           logo:
-            src: ""
+            src: "schools/usc.png"
             backgroundColor: "#990000"
           border:
             color: "#990000"
@@ -107,65 +92,82 @@ home:
           highlights:
             - "Related Courses: Operating System, Networking, Algorithms, Web Technologies"
 
-        - schoolName: "Tech University"
-          degree: "Bachelor of Science in Computer Science with Honors"
+        - schoolName: "University of Illinois at Urbana-Champaign"
+          degree: "Bachelor of Science in Civil Engineering with Honors"
           duration: "Sep. 2019 - Jun. 2023"
-          location: "City, State"
+          location: "Urbana, IL"
           logo:
-            src: ""
+            src: "schools/uiuc.png"
             backgroundColor: "#13294b"
           border:
             color: "#000080"
             hoverColor: "#ff5f05"
           highlightColor: "#ff5f05"
           highlights:
-            - "Minor in Mathematics"
-            - "Graduated with Honors, GPA: 3.8/4.0"
+            - "Minor in Computer Science"
+        
+        - schoolName: "Zhejiang University"
+          degree: "Bachelor of Engineering in Civil Engineering"
+          duration: "Sep. 2019 - Jun. 2023"
+          location: "Hangzhou, China"
+          logo:
+            src: "schools/zju.png"
+            # backgroundColor: "#003c71"
+          border:
+            color: "#0056b3"
+            hoverColor: "#0080ff"
+          highlightColor: "#0056b3"
+          highlights: []
 
     experience:
       title: "Experience"
       icon: "💼"
       type: "experience"
       items:
-        - companyName: "Tech Institute"
-          location: "City, Country"
+        - companyName: "ZJU/UIUC Institute"
+          location: "Haining, China"
           logo:
-            src: "xxx.webp"
+            src: "schools/zjui.jpg"
             # backgroundColor: "#e74d29"
           border:
             color: "#e74d29"
             hoverColor: "#e77e29"
           highlightColor: "#e74d29"
           positions:
-            - position: "Teaching Assistant - CS 101"
+            - position: "Teaching Assistant - CEE 300"
               duration: "Feb 2023 - Jun 2023"
               highlights:
-                - "Assisted students in understanding programming concepts and software development fundamentals."
-                - "Provided tutoring and graded assignments to help students improve coding skills."
-                - "Collaborated with professors to ensure students' success in grasping complex computer science concepts."
-            - position: "Research Assistant"
+                - "Assisted students in understanding material properties and testing concepts in CEE 300: Behavior of Materials course."
+                - "Provided tutoring and graded assignments to help students improve lab report writing skills."
+                - "Collaborated with professors to ensure students' success in grasping complex engineering concepts."
+            - position: "Undergraduate Research Assistant"
               duration: "Sep 2022 - Apr 2023"
               highlights:
-                - "Developed web applications using modern frameworks"
-                - "Built scalable backend systems and APIs"
-                - "Implemented frontend interfaces with responsive design"
-
-        - companyName: "Software Solutions Inc."
-          location: "City, Country"
+                - "Engineered a modular 3D simulation platform in Python/Blender"
+                - "Built scalable data generation pipelines for CV model training"
+                - "Integrated and trained deep learning pipelines (PyTorch)"
+            - position: "Teaching Assistant - MATH 221"
+              duration: "Feb 2023 - Jun 2023"
+              highlights:
+                - "Led weekly discussion sessions for 30+ students in Calculus I at ZJUI."
+                - "Held office hours to support student learning."
+                - "Collaborated with professors to ensure alignment with course objectives and student needs."
+        - companyName: "Zhejiang University International Business School"
+          location: "Haining, China"
           logo:
-            src: "xxx.webp"
+            src: "schools/zibs.webp"
             backgroundColor: "#1e40af"
           border:
             color: "#1e40af"
             hoverColor: "#3b82f6"
           highlightColor: "#1e40af"
           positions:
-            - position: "Software Developer Intern"
+            - position: "Unimate - Academic Administrator"
               duration: "Oct 2021 - Jun 2022"
               highlights:
-                - "Developed web applications using React and Node.js"
-                - "Collaborated with senior developers on large-scale projects"
-                - "Participated in code reviews and agile development processes"
+                - Coordinated onboarding for incoming international students at Zhejiang University International Business School (ZIBS).
+                - Led a team of 10+ students to provide peer support and orientation guidance.
+                - Acted as a liaison between faculty and students to ensure smooth communication and collaboration.
 
 
     projects:
@@ -174,155 +176,91 @@ home:
       type: "projects"
       defaultCover: "default_cover.jpg"
       items:
-        - projectName: "E-Commerce Platform"
-          description: "A full-stack e-commerce platform with modern payment integration and admin dashboard"
+        - projectName: "Onigiri-Press Portfolio Framework"
+          description: "A comprehensive, highly customizable portfolio framework engineered with React and TypeScript for modern web development"
           tag:
-            items: ["React", "Node.js", "MongoDB", "Stripe"]
+            items: ["OnigiriPress", "React", "TypeScript", "CSS Modules", "Vite"]
+          duration: "Jun 2025 - Present"
+          projectLink:
+            url: "https://hujacobjiabao.github.io/portfolio/projects/onigiri-press-portfolio-framework"
+            textColor: ""
+          githubLink:
+            url: "https://github.com/HuJacobJiabao/onigiri-press/"
+          coverImage: "onigiri.png"
+          highlights:
+            - "Architected a modular framework supporting dynamic content generation and flexible configuration management"
+            - "Implemented responsive design system with advanced CSS Modules and glass morphism effects for modern aesthetics"
+            - "Integrated OnigiriPress static site generation with React components for optimal performance and SEO"
+            - "Developed comprehensive theming system with customizable color schemes and layout configurations"
+            - "Built automated deployment pipeline with Vite bundling and GitHub Pages integration"
+
+        - projectName: "Weenix - Unix-like Operating System"
+          description: "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging"
+          tag:
+            items: ["C", "Operating Systems", "Kernel Development", "Unix", "VFS", "Virtual Memory"]
           duration: "Jan 2024 - May 2024"
           projectLink:
-            url: "https://example.com/ecommerce-demo"
+            url: "https://hujacobjiabao.github.io/portfolio/projects/weenix-operating-system"
             textColor: ""
-          githubLink:
-            url: "https://github.com/"
-            textColor: ""
-            backgroundColor: "#2c3e50"
+          coverImage: "content/projects/weenix-operating-system/weenix_cover.svg"
+          highlightColor: "#6b7280"
           highlights:
-            - "Implemented secure payment processing with Stripe API"
-            - "Built comprehensive admin dashboard for inventory management"
-            - "Optimized for performance with lazy loading and caching"
-            - "Responsive design with mobile-first approach"
+            - "Implemented kernel threads with cooperative scheduling and context switching for 10+ concurrent processes"
+            - "Built complete Virtual File System (VFS) layer supporting open/read/write/close operations with file descriptors"
+            - "Developed virtual memory management system with paging, address space isolation, and MMU integration"
+            - "Engineered process management including fork/exec/wait system calls and process lifecycle management"
+            - "Integrated comprehensive testing framework with 8+ test suites validating kernel functionality"
             
-        - projectName: "Task Management App"
-          description: "A collaborative task management application with real-time updates and team features"
+        - projectName: "3D Simulation Platform"
+          description: "A modular 3D simulation platform for computer vision research"
           tag:
-            items: ["Vue.js", "Express", "Socket.io", "PostgreSQL"]
-            backgroundColor: "#f0fdf4"
-            textColor: "#16a34a"
-          duration: "Aug 2023 - Dec 2023"
-          projectLink:
-            url: "https://example.com/taskapp"
-            textColor: "#ffffff"
-          githubLink:
-            url: "https://github.com"
-            backgroundColor: "#059669"
-            textColor: "#ffffff"
-          coverImage: "default_cover.jpg"
-          border:
-            color: "#16a34a"
-            hoverColor: "#15803d"
-          highlightColor: "#16a34a"
-          highlights:
-            - "Real-time collaboration with WebSocket integration"
-            - "Drag-and-drop interface for intuitive task management"
-            - "Team permissions and role-based access control"
-            - "Email notifications and deadline reminders"
-
-        - projectName: "Weather Analytics Dashboard"
-          description: "An interactive dashboard for weather data visualization and climate trend analysis"
-          tag:
-            items: ["Python", "D3.js", "Flask", "OpenWeather API"]
-            backgroundColor: "#eff6ff"
-            textColor: "#1d4ed8"
-          duration: "Mar 2023 - Jul 2023"
-          projectLink:
-            url: "https://example.com/weather-dashboard"
-            textColor: ""
-          githubLink:
-            url: "https://github.com"
-            backgroundColor: "#1e40af"
-            textColor: "#ffffff"
-          coverImage: "default_cover.jpg"
-          border:
-            color: "#2563eb"
-            hoverColor: "#1d4ed8"
-          highlightColor: "#2563eb"
-          highlights:
-            - "Interactive charts with D3.js for data visualization"
-            - "Historical weather data analysis and trend prediction"
-            - "RESTful API integration with multiple weather services"
-            - "Responsive design with data export functionality"
-
-        - projectName: "AI Chat Assistant"
-          description: "An intelligent chatbot with natural language processing and context awareness"
-          tag:
-            items: ["Python", "OpenAI API", "FastAPI", "React"]
-            backgroundColor: "#fef3c7"
-            textColor: "#d97706"
-          duration: "Sep 2023 - Nov 2023"
+            items: ["Python", "Blender", "PyTorch", "OpenCV"]
+            backgroundColor: "#fef2f2"
+            textColor: "#dc2626"
+          duration: "Sep 2022 - Apr 2023"
           projectLink:
             url: ""
             textColor: "#ffffff"
           githubLink:
-            url: "https://github.com"
-            backgroundColor: "#ea580c"
+            url: "https://github.com/HuJacobJiabao/3d-simulation"
+            backgroundColor: "#34495e"
             textColor: "#ffffff"
           coverImage: "default_cover.jpg"
           border:
-            color: "#f59e0b"
-            hoverColor: "#d97706"
-          highlightColor: "#f59e0b"
+            color: "#e74c3c"
+            hoverColor: "#c0392b"
+          highlightColor: "#e74c3c"
           highlights:
-            - "Context-aware conversations with memory management"
-            - "Custom training on domain-specific knowledge"
-            - "Multi-language support and sentiment analysis"
-            - "Integration with popular messaging platforms"
-
-        - projectName: "Fitness Tracker Mobile App"
-          description: "A cross-platform mobile app for fitness tracking with social features and gamification"
-          tag:
-            items: ["React Native", "Firebase", "Swift", "Kotlin"]
-            backgroundColor: "#fce7f3"
-            textColor: "#be185d"
-          duration: "May 2023 - Sep 2023"
-          projectLink:
-            url: "https://example.com/fitness-app"
-            textColor: ""
-          githubLink:
-            url: "https://github.com"
-            backgroundColor: "#be185d"
-            textColor: "#ffffff"
-          coverImage: "default_cover.jpg"
-          border:
-            color: "#ec4899"
-            hoverColor: "#db2777"
-          highlightColor: "#ec4899"
-          highlights:
-            - "Cross-platform development with React Native"
-            - "Integration with wearable devices and health APIs"
-            - "Social features with friend challenges and leaderboards"
-            - "Offline data synchronization and cloud backup"
+            - "Built scalable data generation pipelines"
+            - "Integrated deep learning training workflows"
+            - "Modular architecture for extensibility"
         
-
-
-    # certificates:
-    #   title: "Certificates & Achievements"
-    #   icon: "🏆"
-    #   type: "projects"
-    #   defaultCover: "background/hero.jpg"
-    #   items:
-    #     - projectName: "AWS Solutions Architect Associate"
-    #       description: "Comprehensive certification covering AWS architecture best practices and cloud solutions design"
-    #       technologies: ["AWS", "Cloud Architecture", "EC2", "S3", "Lambda"]
-    #       duration: "Dec 2024"
-    #       projectUrl: "https://aws.amazon.com/certification/certified-solutions-architect-associate/"
-    #       githubUrl: ""
-    #       imageSrc: "default_cover.jpg"
-    #       highlights:
-    #         - "Validated expertise in designing distributed applications on AWS"
-    #         - "Demonstrated knowledge of security and compliance on AWS platform"
-    #         - "Proven ability to optimize costs and performance"
-            
-    #     - projectName: "React Developer Certification"
-    #       description: "Advanced certification in React development covering hooks, state management, and modern patterns"
-    #       technologies: ["React", "JavaScript", "TypeScript", "Redux"]
-    #       duration: "Nov 2024"
-    #       projectUrl: "https://reactjs.org/"
-    #       githubUrl: ""
-    #       imageSrc: "default_cover.jpg"
-    #       highlights:
-    #         - "Advanced component architecture and optimization"
-    #         - "State management with Redux and Context API"
-    #         - "Testing strategies for React applications"
+    certificates:
+      title: "Certificates"
+      icon: "🏆"
+      type: "projects"
+      defaultCover: "background/hero.jpg"
+      items:
+        - projectName: "Certified Scrum Developer (CSD)"
+          description: "Professional certification in Scrum development practices and agile software engineering"
+          tag:
+            items: ["Scrum", "Agile", "TDD", "Continuous Integration"]
+            backgroundColor: "#e0f2fe"
+            textColor: "#0277bd"
+          duration: "Jun 2025"
+          projectLink:
+            url: "https://bcert.me/shydrfeqo"
+            textColor: "#0277bd"
+          coverImage: "certificates/sa-csd-600.webp"
+          border:
+            color: "#0288d1"
+            hoverColor: "#0277bd"
+          highlightColor: "#0288d1"
+          highlights:
+            - "Advanced Scrum framework implementation"
+            - "Test-driven development (TDD) practices"
+            - "Continuous integration and delivery"
+            - "Agile engineering practices and code quality"
     
 
     contact:
@@ -330,22 +268,22 @@ home:
       icon: "📬"
       type: "contact"
       content: "Feel free to reach out for collaborations, opportunities, or just to say hello!"
-      email: "demo@example.com"
-      github: "https://github.com/"
-      linkedin: "https://www.linkedin.com/"
-      twitter: "https://twitter.com/"
-      instagram: "https://instagram.com/"
-      weibo: "https://weibo.com/"
-      xiaohongshu: "https://xiaohongshu.com/"
-      wechat: "your-wechat-id"  # WeChat ID or QR code image URL
-      qq: "your-qq-number"
-      discord: "https://discord.com/"
-      youtube: "https://youtube.com/"
-      bilibili: "https://bilibili.com/"
-      zhihu: "https://zhihu.com/"
-      # Contact color configuration - simplified to only include text and icon colors
-      # Icons and text use the same color settings
-      # Supports various CSS color formats: hex, RGB, RGBA, HSL, named colors
+      email: "hujiabao1224@gmail.com"
+      github: "https://github.com/HuJacobJiabao"
+      linkedin: "https://www.linkedin.com/in/jiabao-hu-920664221/"
+      # twitter: "https://twitter.com/"
+      # instagram: "https://instagram.com/"
+      # weibo: "https://weibo.com/"
+      # xiaohongshu: "https://xiaohongshu.com/"
+      wechat: "Hujiabao1224"  # WeChat ID or QR code image URL
+      # qq: "your-qq-number"
+      # discord: "https://discord.com/"
+      # youtube: "https://youtube.com/"
+      # bilibili: "https://bilibili.com/"
+      # zhihu: "https://zhihu.com/"
+      # # Contact color configuration - simplified to only include text and icon colors
+      # # Icons and text use the same color settings
+      # # Supports various CSS color formats: hex, RGB, RGBA, HSL, named colors
       textColor: "#2958e7" # Color for both icons and text/links (including underlines)
 
     # Example: Add a custom section (uncomment and customize)
@@ -366,7 +304,7 @@ navbar:
   showCV: true
   showProjects: true
   showBlogs: true
-  showLogs: false
+  showLogs: true
   showArchive: true
 
 # Content display settings
@@ -388,32 +326,6 @@ content:
   categoryColors:
     default: # Default fallback for all unspecified categories
       textColor: "#5a0cea"
-    "Full Stack": 
-      textColor: "#059669"
-    "Frontend":
-      textColor: "#3b82f6"
-    "Backend":
-      textColor: "#8b5cf6"
-    "Machine Learning":
-      textColor: "#f59e0b"
-    "Research":
-      textColor: "#ef4444"
-    "Web Development":
-      textColor: "#10b981"
-    "Mobile Development":
-      textColor: "#f97316"
-    "Data Science":
-      textColor: "#8b5cf6"
-    "Computer Vision":
-      textColor: "#06b6d4"
-    "Tutorial":
-      textColor: "#3b82f6"
-    "Technology":
-      textColor: "#6366f1"
-    "Personal":
-      textColor: "#ec4899"
-    "Documentation":
-      textColor: "#f43f5e"
 
   # Global tag colors (shared across blogs, projects, and archive)  
   # Each tag uses both backgroundColor and textColor
@@ -421,82 +333,15 @@ content:
     default: # Default fallback for all unspecified tags
       backgroundColor: "#f3f4f6"
       textColor: "#374151"
-    "React":
-      backgroundColor: "#dbeafe" 
-      textColor: "#1d4ed8"
-    "TypeScript":
-      backgroundColor: "#eff6ff"
-      textColor: "#2563eb"
-    "JavaScript":
-      backgroundColor: "#fef3c7"
-      textColor: "#d97706"
-    "Python":
-      backgroundColor: "#dcfce7"
-      textColor: "#16a34a"
-    "Node.js":
-      backgroundColor: "#dcfce7"
-      textColor: "#059669"
-    "Django":
-      backgroundColor: "#dcfce7"
-      textColor: "#16a34a"
-    "Express":
-      backgroundColor: "#f3f4f6"
-      textColor: "#374151"
-    "MongoDB":
-      backgroundColor: "#dcfce7"
-      textColor: "#059669"
-    "PostgreSQL":
-      backgroundColor: "#dbeafe"
-      textColor: "#1d4ed8"
-    "CSS Modules":
-      backgroundColor: "#fce7f3"
-      textColor: "#be185d"
-    "Vite":
-      backgroundColor: "#fef3c7"
-      textColor: "#d97706"
-    "PyTorch":
-      backgroundColor: "#fee2e2"
-      textColor: "#dc2626"
-    "OpenCV":
-      backgroundColor: "#dbeafe"
-      textColor: "#1d4ed8"
-    "Blender":
-      backgroundColor: "#fef3c7"
-      textColor: "#d97706"
-    "OpenAI API":
-      backgroundColor: "#f0fdf4"
-      textColor: "#16a34a"
-    "MQTT":
-      backgroundColor: "#f3f4f6"
-      textColor: "#374151"
-    "D3.js":
-      backgroundColor: "#fef3c7"
-      textColor: "#d97706"
-    "Swift":
-      backgroundColor: "#fee2e2"
-      textColor: "#dc2626"
-    "ARKit":
-      backgroundColor: "#fee2e2"
-      textColor: "#dc2626"
-    "CoreLocation":
-      backgroundColor: "#f3f4f6"
-      textColor: "#374151"
-    "MapKit":
-      backgroundColor: "#f0fdf4"
-      textColor: "#16a34a"
-    "Firebase":
-      backgroundColor: "#fef3c7"
-      textColor: "#d97706"
-    "Markdown":
-      backgroundColor: "#1f2937"
-      textColor: "#f3f4f6"
+    OnigiriPress:
+      icon: onigiri.png
 
 resume:
-  filename: "John_Doe_Resume.pdf"
+  filename: "Jiabao_Resume.pdf"
 
 # Footer configuration
 footer:
-  copyright: "© 2025 by Your Name. All rights reserved."
+  copyright: "© 2025 by Jiabao Hu. All rights reserved."
   message: "Welcome to my portfolio website!"
   background: "/background/hero.jpg"  # Footer background image
 
@@ -512,7 +357,7 @@ audioPlayer:
     enabled: true   # Set to true to use MetingJS instead of local audio files
     server: "netease"   # Music server: netease, tencent, kugou, xiami, baidu
     type: "playlist"    # Type: song, playlist, album, search, artist
-    id: "50744483"    # Music ID from the platform
+    id: "22394014"    # Music ID from the platform
     mutex: true         # Prevent multiple players from playing simultaneously
     listFolded: false   # Whether to fold the playlist
     listMaxHeight: "340px"  # Maximum height of the playlist

@@ -1,22 +1,197 @@
 {
+  "devlogs/2025-06-04/change-log.md": {
+    "path": "devlogs/2025-06-04/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.410Z",
+    "created": "2025-06-21T07:49:15.410Z"
+  },
+  "devlogs/2025-06-04/developer-log.md": {
+    "path": "devlogs/2025-06-04/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.410Z",
+    "created": "2025-06-21T07:49:15.410Z"
+  },
+  "devlogs/2025-06-05/change-log.md": {
+    "path": "devlogs/2025-06-05/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.410Z",
+    "created": "2025-06-21T07:49:15.410Z"
+  },
+  "devlogs/2025-06-05/developer-log.md": {
+    "path": "devlogs/2025-06-05/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.410Z",
+    "created": "2025-06-21T07:49:15.410Z"
+  },
+  "devlogs/2025-06-06/change-log.md": {
+    "path": "devlogs/2025-06-06/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.414Z",
+    "created": "2025-06-21T07:49:15.414Z"
+  },
+  "devlogs/2025-06-06/developer-log.md": {
+    "path": "devlogs/2025-06-06/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.414Z",
+    "created": "2025-06-21T07:49:15.414Z"
+  },
+  "devlogs/2025-06-07/change-log.md": {
+    "path": "devlogs/2025-06-07/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.414Z",
+    "created": "2025-06-21T07:49:15.414Z"
+  },
+  "devlogs/2025-06-07/developer-log.md": {
+    "path": "devlogs/2025-06-07/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.414Z",
+    "created": "2025-06-21T07:49:15.414Z"
+  },
+  "devlogs/2025-06-08/change-log.md": {
+    "path": "devlogs/2025-06-08/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.418Z",
+    "created": "2025-06-21T07:49:15.418Z"
+  },
+  "devlogs/2025-06-08/developer-log.md": {
+    "path": "devlogs/2025-06-08/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.418Z",
+    "created": "2025-06-21T07:49:15.418Z"
+  },
+  "devlogs/2025-06-09/change-log.md": {
+    "path": "devlogs/2025-06-09/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.418Z",
+    "created": "2025-06-21T07:49:15.418Z"
+  },
+  "devlogs/2025-06-09/developer-log.md": {
+    "path": "devlogs/2025-06-09/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.418Z",
+    "created": "2025-06-21T07:49:15.418Z"
+  },
+  "devlogs/2025-06-10/change-log.md": {
+    "path": "devlogs/2025-06-10/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.418Z",
+    "created": "2025-06-21T07:49:15.418Z"
+  },
+  "devlogs/2025-06-10/developer-log.md": {
+    "path": "devlogs/2025-06-10/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.421Z",
+    "created": "2025-06-21T07:49:15.421Z"
+  },
+  "devlogs/2025-06-11/change-log.md": {
+    "path": "devlogs/2025-06-11/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.421Z",
+    "created": "2025-06-21T07:49:15.421Z"
+  },
+  "devlogs/2025-06-11/developer-log.md": {
+    "path": "devlogs/2025-06-11/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.421Z",
+    "created": "2025-06-21T07:49:15.421Z"
+  },
+  "devlogs/2025-06-12/change-log.md": {
+    "path": "devlogs/2025-06-12/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.421Z",
+    "created": "2025-06-21T07:49:15.421Z"
+  },
+  "devlogs/2025-06-12/developer-log.md": {
+    "path": "devlogs/2025-06-12/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.421Z",
+    "created": "2025-06-21T07:49:15.421Z"
+  },
+  "devlogs/2025-06-13/change-log.md": {
+    "path": "devlogs/2025-06-13/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.425Z",
+    "created": "2025-06-21T07:49:15.425Z"
+  },
+  "devlogs/2025-06-13/developer-log.md": {
+    "path": "devlogs/2025-06-13/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.425Z",
+    "created": "2025-06-21T07:49:15.425Z"
+  },
+  "devlogs/2025-06-14/change-log.md": {
+    "path": "devlogs/2025-06-14/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.425Z",
+    "created": "2025-06-21T07:49:15.425Z"
+  },
+  "devlogs/2025-06-14/developer-log.md": {
+    "path": "devlogs/2025-06-14/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.425Z",
+    "created": "2025-06-21T07:49:15.425Z"
+  },
+  "devlogs/2025-06-15/change-log.md": {
+    "path": "devlogs/2025-06-15/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.425Z",
+    "created": "2025-06-21T07:49:15.425Z"
+  },
+  "devlogs/2025-06-15/developer-log.md": {
+    "path": "devlogs/2025-06-15/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.432Z",
+    "created": "2025-06-21T07:49:15.432Z"
+  },
+  "devlogs/2025-06-17/change-log.md": {
+    "path": "devlogs/2025-06-17/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.432Z",
+    "created": "2025-06-21T07:49:15.432Z"
+  },
+  "devlogs/2025-06-17/developer-log.md": {
+    "path": "devlogs/2025-06-17/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.432Z",
+    "created": "2025-06-21T07:49:15.432Z"
+  },
+  "devlogs/2025-06-18/change-log.md": {
+    "path": "devlogs/2025-06-18/change-log.md",
+    "lastModified": "2025-06-21T07:49:15.432Z",
+    "created": "2025-06-21T07:49:15.432Z"
+  },
+  "devlogs/2025-06-18/developer-log.md": {
+    "path": "devlogs/2025-06-18/developer-log.md",
+    "lastModified": "2025-06-21T07:49:15.432Z",
+    "created": "2025-06-21T07:49:15.432Z"
+  },
+  "devlogs/2025-06-25/change-log.md": {
+    "path": "devlogs/2025-06-25/change-log.md",
+    "lastModified": "2025-06-25T11:22:56.547Z",
+    "created": "2025-06-26T08:25:36.405Z"
+  },
+  "devlogs/2025-06-25/developer-log.md": {
+    "path": "devlogs/2025-06-25/developer-log.md",
+    "lastModified": "2025-06-25T11:23:02.578Z",
+    "created": "2025-06-26T08:25:36.384Z"
+  },
+  "devlogs/2025-06-28/change-log.md": {
+    "path": "devlogs/2025-06-28/change-log.md",
+    "lastModified": "2025-06-29T06:50:40.080Z",
+    "created": "2025-06-29T06:32:00.502Z"
+  },
+  "devlogs/2025-06-28/developer-log.md": {
+    "path": "devlogs/2025-06-28/developer-log.md",
+    "lastModified": "2025-06-29T06:50:40.406Z",
+    "created": "2025-06-29T06:32:00.509Z"
+  },
+  "blogs/definition-list-test/index.md": {
+    "path": "blogs/definition-list-test/index.md",
+    "lastModified": "2025-06-21T07:49:15.370Z",
+    "created": "2025-06-21T07:49:15.370Z"
+  },
+  "blogs/footnotes-demo/index.md": {
+    "path": "blogs/footnotes-demo/index.md",
+    "lastModified": "2025-06-21T07:49:15.370Z",
+    "created": "2025-06-21T07:49:15.370Z"
+  },
+  "blogs/highlight-test/index.md": {
+    "path": "blogs/highlight-test/index.md",
+    "lastModified": "2025-06-21T07:49:15.381Z",
+    "created": "2025-06-21T07:49:15.381Z"
+  },
   "blogs/markdown-demo/index.md": {
     "path": "blogs/markdown-demo/index.md",
-    "lastModified": "2025-06-15T23:04:19.969Z",
-    "created": "2025-06-15T22:10:25.891Z"
+    "lastModified": "2025-06-21T07:49:15.381Z",
+    "created": "2025-06-21T07:49:15.381Z"
   },
-  "blogs/read-me/index.md": {
-    "path": "blogs/read-me/index.md",
-    "lastModified": "2025-06-19T03:29:37.554Z",
-    "created": "2025-06-19T03:11:30.451Z"
+  "blogs/math-demo/index.md": {
+    "path": "blogs/math-demo/index.md",
+    "lastModified": "2025-06-21T07:49:15.381Z",
+    "created": "2025-06-21T07:49:15.381Z"
   },
-  "projects/file-path-test/index.md": {
-    "path": "projects/file-path-test/index.md",
-    "lastModified": "2025-06-16T15:11:41.757Z",
-    "created": "2025-06-16T15:09:07.243Z"
+  "projects/onigiri-press-portfolio-framework/index.md": {
+    "path": "projects/onigiri-press-portfolio-framework/index.md",
+    "lastModified": "2025-06-25T07:32:38.465Z",
+    "created": "2025-06-21T08:09:46.563Z"
   },
-  "projects/sample-project/index.md": {
-    "path": "projects/sample-project/index.md",
-    "lastModified": "2025-06-19T03:37:31.435Z",
-    "created": "2025-06-16T01:44:48.314Z"
+  "projects/weenix-operating-system/index.md": {
+    "path": "projects/weenix-operating-system/index.md",
+    "lastModified": "2025-06-28T01:48:32.627Z",
+    "created": "2025-06-25T07:40:57.928Z"
   }
 }
