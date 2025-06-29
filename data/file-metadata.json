@@ -139,6 +139,26 @@
     "lastModified": "2025-06-21T07:49:15.432Z",
     "created": "2025-06-21T07:49:15.432Z"
   },
+  "devlogs/2025-06-25/change-log.md": {
+    "path": "devlogs/2025-06-25/change-log.md",
+    "lastModified": "2025-06-25T11:22:56.547Z",
+    "created": "2025-06-26T08:25:36.405Z"
+  },
+  "devlogs/2025-06-25/developer-log.md": {
+    "path": "devlogs/2025-06-25/developer-log.md",
+    "lastModified": "2025-06-25T11:23:02.578Z",
+    "created": "2025-06-26T08:25:36.384Z"
+  },
+  "devlogs/2025-06-28/change-log.md": {
+    "path": "devlogs/2025-06-28/change-log.md",
+    "lastModified": "2025-06-29T12:30:13.199Z",
+    "created": "2025-06-29T12:30:13.199Z"
+  },
+  "devlogs/2025-06-28/developer-log.md": {
+    "path": "devlogs/2025-06-28/developer-log.md",
+    "lastModified": "2025-06-29T12:30:13.202Z",
+    "created": "2025-06-29T12:30:13.199Z"
+  },
   "blogs/definition-list-test/index.md": {
     "path": "blogs/definition-list-test/index.md",
     "lastModified": "2025-06-21T07:49:15.370Z",
@@ -166,7 +186,12 @@
   },
   "projects/onigiri-press-portfolio-framework/index.md": {
     "path": "projects/onigiri-press-portfolio-framework/index.md",
-    "lastModified": "2025-06-21T08:16:26.825Z",
+    "lastModified": "2025-06-25T07:32:38.465Z",
     "created": "2025-06-21T08:09:46.563Z"
+  },
+  "projects/weenix-operating-system/index.md": {
+    "path": "projects/weenix-operating-system/index.md",
+    "lastModified": "2025-06-28T01:48:32.627Z",
+    "created": "2025-06-25T07:40:57.928Z"
   }
 }

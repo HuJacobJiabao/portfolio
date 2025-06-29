@@ -1,6 +1,12 @@
 
 ## 2025.06
 
+**Jun 28** - Configuration system refinement and tag fuzzy matching implementation  
+[Change Log](./devlogs/2025-06-28/change-log.md) | [Developer Log](./devlogs/2025-06-28/developer-log.md)
+
+**Jun 25** - Unified responsive design implementation and ProjectCard optimization  
+[Change Log](./devlogs/2025-06-25/change-log.md) | [Developer Log](./devlogs/2025-06-25/developer-log.md)
+
 **Jun 18** - Enhanced social media integration with comprehensive platform support and improved contact components  
 [Change Log](./devlogs/2025-06-18/change-log.md) | [Developer Log](./devlogs/2025-06-18/developer-log.md)
 

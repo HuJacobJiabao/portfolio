@@ -3,9 +3,9 @@ type: "project"
 title: "Onigiri Press Portfolio Framework"
 createTime: "2025-06-21T08:09:46.567Z"
 description: "This is the default description for project."
-tags: ["Hello", "World"]
-category: "default"
-coverImage: "default"
+tags: ["React", "TypeScript", "Vite", "Portfolio", "Blog"]
+category: "Frontend"
+coverImage: "./onigiri.png"
 ---
 
 # {{title}}
