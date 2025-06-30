@@ -2,8 +2,8 @@
 type: "project"
 title: "Weenix - Unix-like Operating System"
 createTime: "2024-05-15T12:00:00.000Z"
-description: "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging"
-tags: ["C", "Operating Systems", "Kernel Development", "Unix", "VFS", "Virtual Memory"]
+description: "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging."
+tags: ["C","Unix", "Operating Systems", "Kernel Development", "Ubuntu", "VirtualBox", "VFS", "Virtual Memory"]
 category: "Kernel Programming"
 coverImage: "/content/projects/weenix-operating-system/weenix_cover.svg"
 ---

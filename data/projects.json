@@ -4,7 +4,7 @@
     "title": "Onigiri Press Portfolio Framework",
     "date": "2025-06-21T08:09:46.567Z",
     "category": "Frontend",
-    "description": "This is the default description for project.",
+    "description": "A modern, lightweight portfolio and blog framework built with React, TypeScript, and Vite, featuring Markdown support, responsive design, and integrated media capabilities for developers and content creators.",
     "tags": [
       "React",
       "TypeScript",
@@ -22,12 +22,14 @@
     "title": "Weenix - Unix-like Operating System",
     "date": "2024-05-15T12:00:00.000Z",
     "category": "Kernel Programming",
-    "description": "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging",
+    "description": "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging.",
     "tags": [
       "C",
+      "Unix",
       "Operating Systems",
       "Kernel Development",
-      "Unix",
+      "Ubuntu",
+      "VirtualBox",
       "VFS",
       "Virtual Memory"
     ],
@@ -36,6 +38,33 @@
     "image": "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg",
     "assetPaths": [
       "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg"
+    ]
+  },
+  {
+    "id": "android-weather-app",
+    "title": "Android Weather App",
+    "date": "2022-05-15",
+    "category": "mobile",
+    "description": "A high-performance Android weather app with real-time forecasts, interactive charts, and cloud-synced favorites.",
+    "tags": [
+      "Java",
+      "Android Studio",
+      "Node.js",
+      "MongoDB Atlas",
+      "Tomorrow.io API",
+      "Highcharts",
+      "Retrofit"
+    ],
+    "link": "/portfolio/projects/android-weather-app",
+    "contentPath": "/portfolio/content/projects/android-weather-app/index.md",
+    "image": "/portfolio/content/projects/android-weather-app/weather.svg",
+    "assetPaths": [
+      "/portfolio/content/projects/android-weather-app/Google_Maps_icon.svg",
+      "/portfolio/content/projects/android-weather-app/demo/add_to_remove_from_fav.gif",
+      "/portfolio/content/projects/android-weather-app/demo/auto_complete.gif",
+      "/portfolio/content/projects/android-weather-app/demo/splash_screen.gif",
+      "/portfolio/content/projects/android-weather-app/demo/tweet.gif",
+      "/portfolio/content/projects/android-weather-app/demo/weather_details.gif"
     ]
   }
 ]

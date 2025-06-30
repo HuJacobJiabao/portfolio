@@ -2,7 +2,7 @@
 type: "project"
 title: "Onigiri Press Portfolio Framework"
 createTime: "2025-06-21T08:09:46.567Z"
-description: "This is the default description for project."
+description: "A modern, lightweight portfolio and blog framework built with React, TypeScript, and Vite, featuring Markdown support, responsive design, and integrated media capabilities for developers and content creators."
 tags: ["React", "TypeScript", "Vite", "Portfolio", "Blog"]
 category: "Frontend"
 coverImage: "./onigiri.png"
