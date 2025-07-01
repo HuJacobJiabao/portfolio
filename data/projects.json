@@ -18,32 +18,9 @@
     "assetPaths": []
   },
   {
-    "id": "weenix-unix-like-operating-system",
-    "title": "Weenix - Unix-like Operating System",
-    "date": "2024-05-15T12:00:00.000Z",
-    "category": "Kernel Programming",
-    "description": "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging.",
-    "tags": [
-      "C",
-      "Unix",
-      "Operating Systems",
-      "Kernel Development",
-      "Ubuntu",
-      "VirtualBox",
-      "VFS",
-      "Virtual Memory"
-    ],
-    "link": "/portfolio/projects/weenix-unix-like-operating-system",
-    "contentPath": "/portfolio/content/projects/weenix-operating-system/index.md",
-    "image": "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg",
-    "assetPaths": [
-      "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg"
-    ]
-  },
-  {
     "id": "android-weather-app",
     "title": "Android Weather App",
-    "date": "2022-05-15",
+    "date": "2024-12-01",
     "category": "mobile",
     "description": "A high-performance Android weather app with real-time forecasts, interactive charts, and cloud-synced favorites.",
     "tags": [
@@ -66,6 +43,52 @@
       "/portfolio/content/projects/android-weather-app/demo/tweet.gif",
       "/portfolio/content/projects/android-weather-app/demo/weather_details.gif",
       "/portfolio/content/projects/android-weather-app/weather.svg"
+    ]
+  },
+  {
+    "id": "full-stack-web-weather-app",
+    "title": "Full-Stack Web Weather App",
+    "date": "2024-11-20T21:12:52.662Z",
+    "category": "Full Stack",
+    "description": "A full-featured, mobile-friendly weather forecast web application built with Angular, Node.js, and MongoDB Atlas, featuring real-time data from Tomorrow.io and interactive Google Maps.",
+    "tags": [
+      "Angular",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tomorrow.io API",
+      "Google Maps API",
+      "Bootstrap",
+      "Highcharts"
+    ],
+    "link": "/portfolio/projects/full-stack-web-weather-app",
+    "contentPath": "/portfolio/content/projects/full-stack-web-weather-app/index.md",
+    "image": "/portfolio/content/projects/full-stack-web-weather-app/angular-weather.svg",
+    "assetPaths": [
+      "/portfolio/content/projects/full-stack-web-weather-app/angular-weather.svg"
+    ]
+  },
+  {
+    "id": "weenix-unix-like-operating-system",
+    "title": "Weenix - Unix-like Operating System",
+    "date": "2024-05-15T12:00:00.000Z",
+    "category": "Kernel Programming",
+    "description": "A comprehensive Unix-like operating system kernel implementation in C, featuring process management, virtual file system, and virtual memory with paging.",
+    "tags": [
+      "C",
+      "Unix",
+      "Operating Systems",
+      "Kernel Development",
+      "Ubuntu",
+      "VirtualBox",
+      "VFS",
+      "Virtual Memory"
+    ],
+    "link": "/portfolio/projects/weenix-unix-like-operating-system",
+    "contentPath": "/portfolio/content/projects/weenix-operating-system/index.md",
+    "image": "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg",
+    "assetPaths": [
+      "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg"
     ]
   }
 ]

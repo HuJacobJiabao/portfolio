@@ -10,31 +10,6 @@ coverImage: "./content/assets/markdown.png"
 
 # Math Equations Demo
 
-This is a demonstration of math equation rendering using KaTeX.
-
-| Left Aligned | Center Aligned | Right Aligned |
-|:------------ |:--------------:| -------------:|
-| Apple        | Banana         | Cherry        |
-| Dog          | Elephant       | Fox           |
-| 100          | 200            | `300`           |
-
-```latex
-$$
-\begin{bmatrix}
-a & b \\
-c & d
-\end{bmatrix}
-\begin{bmatrix}
-x \\
-y
-\end{bmatrix}
-=
-\begin{bmatrix}
-ax + by \\
-cx + dy
-\end{bmatrix}
-$$
-```
 ## Inline Math
 
 Here's an inline math equation: $E = mc^2$ which is Einstein's famous equation.

@@ -181,13 +181,18 @@
   },
   "blogs/math-demo/index.md": {
     "path": "blogs/math-demo/index.md",
-    "lastModified": "2025-06-21T07:49:15.381Z",
+    "lastModified": "2025-06-30T21:08:39.117Z",
     "created": "2025-06-21T07:49:15.381Z"
   },
   "projects/android-weather-app/index.md": {
     "path": "projects/android-weather-app/index.md",
-    "lastModified": "2025-06-30T05:59:55.119Z",
+    "lastModified": "2025-07-01T08:13:22.988Z",
     "created": "2025-06-30T02:38:47.545Z"
+  },
+  "projects/full-stack-web-weather-app/index.md": {
+    "path": "projects/full-stack-web-weather-app/index.md",
+    "lastModified": "2025-07-01T08:09:55.813Z",
+    "created": "2025-06-30T21:12:52.658Z"
   },
   "projects/onigiri-press-portfolio-framework/index.md": {
     "path": "projects/onigiri-press-portfolio-framework/index.md",
