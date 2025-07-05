@@ -159,6 +159,16 @@
     "lastModified": "2025-06-29T12:30:13.202Z",
     "created": "2025-06-29T12:30:13.199Z"
   },
+  "devlogs/2025-07-04/change-log.md": {
+    "path": "devlogs/2025-07-04/change-log.md",
+    "lastModified": "2025-07-04T23:58:05.760Z",
+    "created": "2025-07-04T23:43:28.674Z"
+  },
+  "devlogs/2025-07-04/developer-log.md": {
+    "path": "devlogs/2025-07-04/developer-log.md",
+    "lastModified": "2025-07-04T23:58:16.930Z",
+    "created": "2025-07-04T23:43:28.674Z"
+  },
   "blogs/definition-list-test/index.md": {
     "path": "blogs/definition-list-test/index.md",
     "lastModified": "2025-06-21T07:49:15.370Z",
@@ -186,7 +196,7 @@
   },
   "projects/android-weather-app/index.md": {
     "path": "projects/android-weather-app/index.md",
-    "lastModified": "2025-07-01T08:13:22.988Z",
+    "lastModified": "2025-07-02T12:34:27.193Z",
     "created": "2025-06-30T02:38:47.545Z"
   },
   "projects/full-stack-web-weather-app/index.md": {
