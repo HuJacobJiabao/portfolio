@@ -299,27 +299,69 @@ Project description and documentation...
 
 ### GitHub Pages (Recommended)
 
+**Free static hosting for open source projects:**
+
 1. **Configure your repository**:
-  onigiri.config.json
    ```json
+   // onigiri.config.json
    {
      "baseUrl": "/your-repo-name/"
    }
    ```
 
-1. **Build and deploy**:
+2. **Build and deploy**:
    ```bash
    ongr build
    ongr deploy
    ```
 
-2. **Enable GitHub Pages**:
+3. **Enable GitHub Pages**:
    - Go to your repository settings
    - Enable GitHub Pages from the `gh-pages` branch
 
+### Vercel
+
+**Modern deployment platform with advanced features:**
+
+1. **Configure for Vercel**:
+   ```json
+   // onigiri.config.json
+   {
+     "baseUrl": "/"
+   }
+   ```
+
+2. **Deploy with CLI**:
+   ```bash
+   # Install Vercel CLI if not already installed
+   npm install -g vercel
+   
+   # Login to Vercel
+   vercel login
+   
+   # Deploy (preview)
+   ongr deploy-vercel
+   
+   # Deploy to production
+   ongr dv --prod
+   ```
+
+3. **Or deploy via Vercel Dashboard**:
+   - Connect your GitHub repository at [vercel.com](https://vercel.com)
+   - Vercel will automatically detect and deploy your project
+   - Set `baseUrl: "/"` in your `onigiri.config.json`
+
 ### Other Platforms
 
-Not available yet, but you can deploy to any static hosting service like Netlify or Vercel by following their documentation.
+You can deploy to any static hosting service like **Netlify**, **Surge**, or **Firebase Hosting**:
+
+1. **Build your project**:
+   ```bash
+   # Set baseUrl to "/" for most platforms
+   ongr build
+   ```
+
+2. **Deploy the `dist/` folder** to your chosen platform following their documentation.
 
 ---
 
