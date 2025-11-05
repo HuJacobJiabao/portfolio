@@ -320,6 +320,25 @@ home:
             - "Test-driven development (TDD) practices"
             - "Continuous integration and delivery"
             - "Agile engineering practices and code quality"
+
+        - projectName: "Certified ScrumMaster (CSM)"
+          description: "Professional certification demonstrating expertise in Scrum framework, team facilitation, and agile project management"
+          tag:
+            items: ["Scrum", "Agile", "Leadership", "Team Facilitation"]
+          duration: "Oct 2025"
+          projectLink:
+            url: "https://bcert.me/sjnloutwc"
+            textColor: "#388e3c"
+          coverImage: "certificates/sa-csm-600.png"
+          border:
+            color: "#43a047"
+            hoverColor: "#388e3c"
+          highlightColor: "#43a047"
+          highlights:
+            - "Mastery of Scrum roles, events, and artifacts"
+            - "Effective team facilitation and servant leadership"
+            - "Sprint planning, review, and retrospective techniques"
+            - "Agile project management and collaboration practices"
     
 
     contact:

@@ -12,9 +12,9 @@
       "Portfolio",
       "Blog"
     ],
-    "link": "/portfolio/projects/onigiri-press-portfolio-framework",
-    "contentPath": "/portfolio/content/projects/onigiri-press-portfolio-framework/index.md",
-    "image": "/portfolio/onigiri.png",
+    "link": "/projects/onigiri-press-portfolio-framework",
+    "contentPath": "/content/projects/onigiri-press-portfolio-framework/index.md",
+    "image": "/onigiri.png",
     "assetPaths": []
   },
   {
@@ -32,17 +32,17 @@
       "Highcharts",
       "Retrofit"
     ],
-    "link": "/portfolio/projects/android-weather-app",
-    "contentPath": "/portfolio/content/projects/android-weather-app/index.md",
-    "image": "/portfolio/content/projects/android-weather-app/weather.svg",
+    "link": "/projects/android-weather-app",
+    "contentPath": "/content/projects/android-weather-app/index.md",
+    "image": "/content/projects/android-weather-app/weather.svg",
     "assetPaths": [
-      "/portfolio/content/projects/android-weather-app/Google_Maps_icon.svg",
-      "/portfolio/content/projects/android-weather-app/demo/add_to_remove_from_fav.gif",
-      "/portfolio/content/projects/android-weather-app/demo/auto_complete.gif",
-      "/portfolio/content/projects/android-weather-app/demo/splash_screen.gif",
-      "/portfolio/content/projects/android-weather-app/demo/tweet.gif",
-      "/portfolio/content/projects/android-weather-app/demo/weather_details.gif",
-      "/portfolio/content/projects/android-weather-app/weather.svg"
+      "/content/projects/android-weather-app/Google_Maps_icon.svg",
+      "/content/projects/android-weather-app/demo/add_to_remove_from_fav.gif",
+      "/content/projects/android-weather-app/demo/auto_complete.gif",
+      "/content/projects/android-weather-app/demo/splash_screen.gif",
+      "/content/projects/android-weather-app/demo/tweet.gif",
+      "/content/projects/android-weather-app/demo/weather_details.gif",
+      "/content/projects/android-weather-app/weather.svg"
     ]
   },
   {
@@ -61,11 +61,11 @@
       "Bootstrap",
       "Highcharts"
     ],
-    "link": "/portfolio/projects/full-stack-web-weather-app",
-    "contentPath": "/portfolio/content/projects/full-stack-web-weather-app/index.md",
-    "image": "/portfolio/content/projects/full-stack-web-weather-app/angular-weather.svg",
+    "link": "/projects/full-stack-web-weather-app",
+    "contentPath": "/content/projects/full-stack-web-weather-app/index.md",
+    "image": "/content/projects/full-stack-web-weather-app/angular-weather.svg",
     "assetPaths": [
-      "/portfolio/content/projects/full-stack-web-weather-app/angular-weather.svg"
+      "/content/projects/full-stack-web-weather-app/angular-weather.svg"
     ]
   },
   {
@@ -84,11 +84,11 @@
       "VFS",
       "Virtual Memory"
     ],
-    "link": "/portfolio/projects/weenix-unix-like-operating-system",
-    "contentPath": "/portfolio/content/projects/weenix-operating-system/index.md",
-    "image": "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg",
+    "link": "/projects/weenix-unix-like-operating-system",
+    "contentPath": "/content/projects/weenix-operating-system/index.md",
+    "image": "/content/projects/weenix-operating-system/weenix_cover.svg",
     "assetPaths": [
-      "/portfolio/content/projects/weenix-operating-system/weenix_cover.svg"
+      "/content/projects/weenix-operating-system/weenix_cover.svg"
     ]
   }
 ]

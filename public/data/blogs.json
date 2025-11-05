@@ -12,9 +12,9 @@
       "Tutorial",
       "Features"
     ],
-    "link": "/portfolio/blogs/complete-markdown-features-demo",
-    "contentPath": "/portfolio/content/blogs/markdown-demo/index.md",
-    "image": "/portfolio/content/assets/markdown.png"
+    "link": "/blogs/complete-markdown-features-demo",
+    "contentPath": "/content/blogs/markdown-demo/index.md",
+    "image": "/content/assets/markdown.png"
   },
   {
     "id": "definition-list-test",
@@ -27,9 +27,9 @@
       "definition list",
       "Demo"
     ],
-    "link": "/portfolio/blogs/definition-list-test",
-    "contentPath": "/portfolio/content/blogs/definition-list-test/index.md",
-    "image": "/portfolio/content/assets/markdown.png"
+    "link": "/blogs/definition-list-test",
+    "contentPath": "/content/blogs/definition-list-test/index.md",
+    "image": "/content/assets/markdown.png"
   },
   {
     "id": "markdown-highlights-demo",
@@ -42,9 +42,9 @@
       "Highlight",
       "Demo"
     ],
-    "link": "/portfolio/blogs/markdown-highlights-demo",
-    "contentPath": "/portfolio/content/blogs/highlight-test/index.md",
-    "image": "/portfolio/content/assets/markdown.png"
+    "link": "/blogs/markdown-highlights-demo",
+    "contentPath": "/content/blogs/highlight-test/index.md",
+    "image": "/content/assets/markdown.png"
   },
   {
     "id": "footnotes-demo",
@@ -57,9 +57,9 @@
       "Footnotes",
       "Demo"
     ],
-    "link": "/portfolio/blogs/footnotes-demo",
-    "contentPath": "/portfolio/content/blogs/footnotes-demo/index.md",
-    "image": "/portfolio/content/assets/markdown.png"
+    "link": "/blogs/footnotes-demo",
+    "contentPath": "/content/blogs/footnotes-demo/index.md",
+    "image": "/content/assets/markdown.png"
   },
   {
     "id": "math-demo",
@@ -72,8 +72,8 @@
       "Footnotes",
       "Demo"
     ],
-    "link": "/portfolio/blogs/math-demo",
-    "contentPath": "/portfolio/content/blogs/math-demo/index.md",
-    "image": "/portfolio/content/assets/markdown.png"
+    "link": "/blogs/math-demo",
+    "contentPath": "/content/blogs/math-demo/index.md",
+    "image": "/content/assets/markdown.png"
   }
 ]
